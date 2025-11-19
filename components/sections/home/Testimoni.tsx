@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 const cards = [
   {
@@ -40,22 +41,11 @@ const Testimoni = () => {
         gap-10 px-6 relative
       ">
         <div className="flex flex-col relative pl-[77px] md:pl-32 w-full md:w-auto">
-          <div className="absolute top-5 left-0 w-[120px] h-[92%] z-50 md:hidden">
+          <div className="absolute top-5 left-0 z-40 w-[120px] h-[92%] md:w-50 md:h-[95%]">
             <Image
-              loading="eager"
+              loading="lazy"
               width={180}
               height={180}
-              src="/images/home/testimony/astronaut.png"
-              className="h-full w-full opacity-90"
-              alt=""
-            />
-          </div>
-
-          <div className="absolute top-5 left-0 w-50 h-[95%] hidden md:block z-50">
-            <Image
-              loading="eager"
-              width={100}
-              height={100}
               src="/images/home/testimony/astronaut.png"
               className="h-full w-full opacity-90"
               alt=""
@@ -127,6 +117,11 @@ const Testimoni = () => {
           </h2>
         </div>
       </div>
+      <a href="#top" className="absolute bottom-20 right-20 text-center">
+        <MdKeyboardDoubleArrowUp className="text-7xl text-red-notch" />
+        <p className="text-red-notch m-0">Back to</p>
+        <p className="text-red-notch m-0">top</p>
+      </a>
     </section>
   );
 }

@@ -4,6 +4,10 @@
   --color-red-notch: #9A1B24; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .card-scroll::-webkit-scrollbar {
   width: 6px;
 }
