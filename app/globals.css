@@ -1,5 +1,30 @@
 @import "tailwindcss";
 
 @theme {
+  --color-red-notch: #9A1B24; 
   --font-neworder: var(--font-neworder);
+}
+
+.card-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card-scroll::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+.card-scroll::-webkit-scrollbar-track {
+}
+
+.card-scroll::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+}
+
+.card-scroll::-webkit-scrollbar-thumb:hover {
+}
+
+.card-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #b00014 transparent;
 }
