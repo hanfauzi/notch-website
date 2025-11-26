@@ -1,6 +1,7 @@
-
+"use client";
 import { motion } from "motion/react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectCardProps {
   item: {
@@ -22,6 +23,7 @@ const ProjectCard = ({ item, i, aspect }: ProjectCardProps) => (
     viewport={{ once: true }}
     className={`relative group overflow-hidden ${aspect}`}
   >
+    <Link href={`projects/${item.id}`} rel="noopener noreferrer">
     <Image
       src={item.img}
       alt={item.brand}
@@ -51,6 +53,7 @@ const ProjectCard = ({ item, i, aspect }: ProjectCardProps) => (
         <p className="text-sm mt-1">{item.description}</p>
       </div>
     </div>
+    </Link>
   </motion.div>
 );
 

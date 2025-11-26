@@ -9,7 +9,7 @@ import LpBackgroundImage from '@/public/images/home/BGBaseImg.webp';
 const LandingPage = () => {
   return (
     <>
-    <section className="relative w-full min-h-screen overflow-hidden">
+    <section className="relative w-full overflow-hidden">
       <Image
         src={LpBackgroundImage}
         alt="Home Bg Image"
