@@ -38,23 +38,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section className="bg-[#5a0000] text-white pt-16">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-center mb-12"
-        >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Our Successful Landings
-          </h2>
-          <p className="text-gray-200 max-w-2xl mx-auto leading-relaxed">
-            This portfolio shows how we’ve helped brands land by understanding
-            their orbit, mapping the emotional terrain, and crafting ideas that
-            connect with clarity and purpose.
-          </p>
-        </motion.div>
+    <section className="bg-[#5a0000] text-white">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 w-full">
           {projects.slice(0, 3).map((item, i) =>
             <ProjectCard key={item.id} item={item} i={i} aspect="aspect-square" />

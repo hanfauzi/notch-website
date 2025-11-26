@@ -2,6 +2,11 @@
 
 @theme {
   --color-red-notch: #9A1B24; 
+  --font-neworder: var(--font-neworder);
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 html {
@@ -30,4 +35,35 @@ html {
 .card-scroll {
   scrollbar-width: thin;
   scrollbar-color: #b00014 transparent;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply transition-transform duration-300 ease-out opacity-70;
+}
+
+.swiper-button-prev:hover {
+  transform: translateX(-8px);
+  opacity: 1;
+}
+
+.swiper-button-next:hover {
+  transform: translateX(8px);
+  opacity: 1;
+}
+
+@media (max-width: 639px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
 }

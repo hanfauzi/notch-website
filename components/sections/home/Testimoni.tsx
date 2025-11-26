@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 const cards = [
@@ -33,22 +34,22 @@ sangat helpful dan responsif sehingga sangat membantu Brand dalam eksekusi campa
 
 const Testimoni = () => {
   return (
-    <section className="relative w-full flex justify-center py-24 bg-[#f0f0f0]">
+    <section className="relative w-full flex justify-center pt-7 pb-24 lg:py-24 bg-[#f0f0f0]">
       <div className="
         max-w-6xl w-full 
-        flex flex-col-reverse md:flex-row
-        justify-center items-start
+        flex flex-col-reverse lg:flex-row
+        justify-center items-center
         gap-10 px-6 relative
       ">
-        <div className="flex flex-col relative pl-[77px] md:pl-32 w-full md:w-auto">
-          <div className="absolute top-5 left-0 z-40 w-[120px] h-[92%] md:w-50 md:h-[95%]">
+        <div className="flex justify-center items-end relative w-auto">
+          <div className="top-5 left-0 h-full z-40 md:w-40 lg:w-60 lg:-mr-3.5 pb-4 w-40">
             <Image
               loading="lazy"
               width={180}
               height={180}
               src="/images/home/testimony/astronaut.png"
               className="h-full w-full opacity-90"
-              alt=""
+              alt="Astronaut"
             />
           </div>
 
@@ -59,8 +60,8 @@ const Testimoni = () => {
               shadow-[0_60px_80px_-20px_rgba(0,0,0,0.20)]
               h-[500px] md:h-[687px]
               overflow-y-auto card-scroll
-              relative
               pr-5
+              -ml-14  md:-ml-14 lg:-ml-18
               z-10
             "
           >
@@ -68,10 +69,13 @@ const Testimoni = () => {
               <div key={i}>
                 <div className="flex flex-col md:flex-row items-center justify-between">
                   <div className="flex flex-col items-center pr-4 mb-4 md:mb-0">
-                    <img
+                    <Image
                       src={c.profileImg}
                       className="w-45 h-45 md:w-48 md:h-48 rounded-full"
-                      alt=""
+                      alt={c.name}
+                      loading="lazy"
+                      width={192}
+                      height={192}
                     />
                     <div className="text-red-notch text-2xl md:text-3xl mb-2">
                       ★★★★★
@@ -79,10 +83,13 @@ const Testimoni = () => {
                   </div>
 
                   <div className="flex-1 md:pl-4">
-                    <img
+                    <Image
                       src={c.brandImg}
+                      loading="lazy"
+                      width={80}
+                      height={40}
                       className="w-16 md:w-20 opacity-90 ml-auto"
-                      alt=""
+                      alt={c.brandImg}
                     />
                     <p className="font-semibold text-lg md:text-xl text-red-notch">
                       {c.name}
@@ -108,8 +115,8 @@ const Testimoni = () => {
           </div>
         </div>
         
-        <div className="flex flex-col justify-center my-auto text-center md:text-left w-full md:w-auto">
-          <h2 className="text-5xl md:text-8xl font-extrabold text-red-notch leading-tight">
+        <div className="flex flex-col justify-center my-auto text-center lg:text-left w-full md:w-auto">
+          <h2 className="text-5xl md:text-7xl font-extrabold text-red-notch leading-tight">
             COSMIC
           </h2>
           <h2 className="text-4xl md:text-7xl font-extrabold text-red-notch leading-tight">
@@ -117,11 +124,11 @@ const Testimoni = () => {
           </h2>
         </div>
       </div>
-      <a href="#top" className="absolute bottom-5 right-5 leading-none text-center flex flex-col items-center hover:-translate-y-1 duration-150">
+      <Link href="#top" className="absolute bottom-5 right-5 leading-none text-center flex flex-col items-center hover:-translate-y-2 duration-150">
         <MdKeyboardDoubleArrowUp className="text-4xl md:text-7xl text-red-notch" />
         <p className="text-red-notch -my-1 text-xs md:text-lg">Back to</p>
         <p className="text-red-notch m-0 text-xs md:text-lg">top</p>
-      </a>
+      </Link>
     </section>
   );
 }

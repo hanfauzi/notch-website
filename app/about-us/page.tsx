@@ -3,10 +3,10 @@ import Crews from "@/components/sections/about-us/Crews";
 
 const AboutPage = () => {
   return (
-    <section className="w-full min-h-screen">
+    <main className="w-full min-h-screen">
       <Hero />
       <Crews />
-    </section>
+    </main>
   )
 }
 

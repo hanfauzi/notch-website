@@ -1,5 +1,6 @@
 
 import { motion } from "motion/react";
+import Image from "next/image";
 
 interface ProjectCardProps {
   item: {
@@ -21,9 +22,12 @@ const ProjectCard = ({ item, i, aspect }: ProjectCardProps) => (
     viewport={{ once: true }}
     className={`relative group overflow-hidden ${aspect}`}
   >
-    <img
+    <Image
       src={item.img}
       alt={item.brand}
+      width={800}
+      height={600}
+      loading="lazy"
       className="
         absolute inset-0 w-full h-full object-cover 
         block transition-transform duration-500
