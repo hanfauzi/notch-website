@@ -35,14 +35,14 @@ const OtherProjects = () => {
           <div className="flex items-center px-2 md:px-0 overflow-x-scroll hide-scrollbar py-3 md:py-4 lg:py-5">
             {images.map(({ src }, index) => (
               <Image
-                key={index}
-                src={src}
-                alt={`${title} ${index + 1}`}
-                width={300}
-                height={300}
-                sizes="(max-width:768px) 140px, 180px"
-                className="cursor-pointer w-[140px] h-[140px] sm:w-[180px] sm:h-[180px] object-cover active:scale-95 hover:scale-105 hover:rounded-xl duration-300"
-                onClick={() => openModal({ title, index, images: { src } })}
+                  key={index}
+                  src={src}
+                  alt={`${title} ${index + 1}`}
+                  width={100}
+                  height={100}
+                  sizes="100"
+                  className="relative w-1/2 sm:w-1/4 h-auto shrink-0 cursor-pointer active:scale-95 hover:scale-105 hover:rounded-2xl hover:shadow-3xl duration-300 overflow-hidden hover:z-10"
+                  onClick={() => openModal({ title, index, images: { src } })}
               />
             ))}
           </div>
