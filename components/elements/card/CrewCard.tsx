@@ -31,7 +31,7 @@ const CrewCard: React.FC<CrewCardCardProps> = ({
 
   return (
     <>
-      <div className="w-[60%] absolute left-1/2 -translate-x-1/2 top-0 h-72 overflow-hidden transform">
+      <div className="w-60 h-60 rounded-full absolute left-1/2 -translate-x-1/2 top-0 overflow-hidden transform">
         <Image
           src={image}
           width={400}
