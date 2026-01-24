@@ -147,10 +147,10 @@ export const allProjects: ProjectInterface[] = [
         campaignName: ``,
         detailDescription: ["Handled SEO driven content for IHH Healthcare, one of the world's largest private healthcare groups to strengthen hospital visibility and drive localized promotion. Strategy centered on competitor keyword targeting, customized by brand, branch, and geographic location."],
         detailImages: [
-            "/images/projects/konidin/konidin1.webp",
-            "/images/projects/konidin/konidin2.webp",
-            "/images/projects/konidin/nobrndsXkonidin.webp",
-            "/images/projects/konidin/konidin4.webp"
+            "/images/projects/IHH/ihh1.webp",
+            "/images/projects/IHH/ihh2.webp",
+            "/images/projects/IHH/ihh3.webp",
+            "/images/projects/IHH/ihh4.webp"
         ],
         challenge: "Building awareness and driving high-quality traffic from the Indonesian market for an international healthcare brand.",
         solution: "Executed a performance-driven digital strategy combining META Ads, Google Ads, and Programmatic Popup Ads, supported by ongoing SEO maintenance to strengthen organic visibility, traffic growth, and keyword performance.",
@@ -219,10 +219,10 @@ export const allProjects: ProjectInterface[] = [
         campaignName: ``,
         detailDescription: ["Astro Goods is a whitelabel brand created by Astro Quick Commerce that offers a <b>wide range of product categories</b> to meet various consumer needs. <b>From everyday food items to baby products and even a poo-tion spray, Astro Goods has something for everyone.</b>","We create a comprehensive content and visual service to engage audience and potential users and encourage them to make purchases through the Astro apps or e-commerce account."],
         detailImages: [
-            "/images/projects/konidin/konidin1.webp",
-            "/images/projects/konidin/konidin2.webp",
-            "/images/projects/konidin/nobrndsXkonidin.webp",
-            "/images/projects/konidin/konidin4.webp"
+            "/images/projects/AstroGoods/astro1.webp",
+            "/images/projects/AstroGoods/astro2.webp",
+            "/images/projects/AstroGoods/astro3.webp",
+            "/images/projects/AstroGoods/astro4.webp"
         ],
         challenge: "Astro Goods needs to increase their attractiveness and creativity in digital to be the consumer's 'Top of Mind' when they need quality yet affordable prices product.",
         solution: "Astro Goods focuses on making “Always Good” more relatable through functional storytelling, community-driven content, and engaging product launch experiences, supported by credible third parties to build stronger awareness and top-of-mind presence in digital.",
@@ -238,10 +238,10 @@ export const allProjects: ProjectInterface[] = [
         campaignName: ``,
         detailDescription: ["On March 2024, WOW Spageti is launching an exciting new innovation <b>WOW Spageti Aglio e Olio.</b> This new variant <b>brings restaurant quality deliciousness to your table,</b> a savory and spicy kick with authentic Italian garlic, all ready <b>in just 3 minutes.</b> It's a true WOW experience for spaghetti lovers. The launch of the new Aglio e Olio flavor includes a full-scale execution, from product development to <b>KOL and buzzer activation.</b>"],
         detailImages: [
-            "/images/projects/konidin/konidin1.webp",
-            "/images/projects/konidin/konidin2.webp",
-            "/images/projects/konidin/nobrndsXkonidin.webp",
-            "/images/projects/konidin/konidin4.webp"
+            "/images/projects/wowSpageti/wow1.webp",
+            "/images/projects/wowSpageti/wow2.webp",
+            "/images/projects/wowSpageti/wow3.webp",
+            "/images/projects/wowSpageti/wow4.webp"
         ],
         challenge: "<b>Introduce WOW Spageti&apos;s new Aglio Olio variant to a young audience,</b> making this Italian-flavored spaghetti feel relevant, appealing, and accessible, without losing the brand&apos;s fun and &quot;WOW moment&quot; character",
         solution: "WOW Spageti partnered with TikTok creators <b>to create a playful, viral debate around &quot;How Do You Pronounce Aglio Olio?&quot; and highlighted the product&apos;s key strengths</b> (authentic Italian flavor, bold taste, and easy 3-minute preparation)",
@@ -318,10 +318,10 @@ export const allProjects: ProjectInterface[] = [
                         </h2>`,
         detailDescription: ["Launched the <b>Waktu Indonesia Donasi</b> campaign to <b>inspire potential donors to support children in need. The campaign leverages  the popularity of <b>Waktu Indonesia Belanja</b>, an e-commerce platform campaign. Both initiatives are designed to capture audience interest through compelling messages and visuals, encouraging them to donate and contribute to a meaningful cause."],
         detailImages: [
-            "/images/projects/konidin/konidin1.webp",
-            "/images/projects/konidin/konidin2.webp",
-            "/images/projects/konidin/nobrndsXkonidin.webp",
-            "/images/projects/konidin/konidin4.webp"
+            "/images/projects/unicef/unicef1.webp",
+            "/images/projects/unicef/unicef2.webp",
+            "/images/projects/unicef/unicef3.webp",
+            "/images/projects/unicef/unicef4.webp"
         ],
         challenge: "Donation initiatives often struggle to attract attention, especially when audiences are more focused on commercial e-commerce events",
         solution: "Launch Waktu Indonesia Donasi by tapping into the popularity of Waktu Indonesia Belanja, instantly gaining relevance and visibility.",
