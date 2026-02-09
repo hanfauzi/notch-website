@@ -122,7 +122,7 @@ const AppleCarousel: React.FC<AppleCarouselProps> = ({ data }) => {
                                 className={`
                                     shrink-0
                                     relative group snap-start
-                                    mx-1 w-[80%] sm:w-[50%] md:w-[45%] lg:w-[35%] xl:w-[25%]
+                                    mx-1 w-[80%] sm:w-[50%] md:w-[45%] lg:w-[35%] xl:w-[25%] 
                                     ${
                                         isActive
                                             ? "xl:w-[30%] lg:w-[40%] md:w-[50%] sm:w-[60%] h-[450px] sm:h-[550px] lg:h-[650px]"

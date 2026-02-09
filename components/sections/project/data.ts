@@ -1,9 +1,10 @@
-import astro from "@/public/images/home/portofolio/astro.png";
-import ihh from "@/public/images/home/portofolio/ihh.png";
+import astro from "@/public/images/home/portofolio/astro-1.png";
+import ihh from "@/public/images/home/portofolio/RS-1.png";
 import konidinCarousel from "@/public/images/projects/konidin/nobrndsXkonidin.webp";
+import konidin from "@/public/images/home/portofolio/Konidin-2.png";
 // import konidinHero from "@/public/images/projects/konidin/shoes-nobrndsxkonidin-landscape.webp";
-import unicef from "@/public/images/home/portofolio/unicef.png";
-import wow from "@/public/images/home/portofolio/wow-spageti.png";
+import unicef from "@/public/images/home/portofolio/Uni-1.png";
+import wow from "@/public/images/home/portofolio/wow-1.png";
 import { StaticImageData } from "next/image";
 
 export interface ProjectInterface {
@@ -23,8 +24,8 @@ export interface ProjectInterface {
 
 export const allProjects: ProjectInterface[] = [
     {
-        id: "as-cac-342",
-        SrcImageCarousel: konidinCarousel,
+        id: "as-cac-342",   
+        SrcImageCarousel: konidin,
         SrcImageHero: konidinCarousel,
         baseService: "Brand Collaboration",
         title: "NOBRNDS x Konidin",
