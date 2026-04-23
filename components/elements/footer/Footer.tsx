@@ -1,6 +1,6 @@
 import { FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa6";
+import QRCode from "react-qr-code";
 import ContactUsFooter from "../form/ContactUsFooter";
-import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -23,13 +23,7 @@ const Footer = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 md:gap-8 items-start">
               <div className="shrink-0">
-                <Image
-                  src="/images/footer/qr-map.jpeg"
-                  alt="QR Map"
-                  width={150}
-                  height={150}
-                  className="rounded-lg bg-white p-1"
-                />
+                <QRCode value="https://maps.app.goo.gl/UEZYQYgpJK6jdEkg7" size={200} className="bg-white p-1 rounded-lg" />
               </div>
 
               <div className="space-y-4 md:space-y-6 text-sm md:text-lg lg:text-xl text-gray-300">

@@ -8,6 +8,9 @@ import CrewCard from "../../elements/card/CrewCard";
 import { crews } from "./data";
 
 const Crews = () => {
+    const crewCount = crews.length;
+    const isFewCrew = crewCount < 3;
+
   return (
     <section className="w-full bg-red-notch2 px-6 pb-20 flex flex-col items-center">
       <div className="max-w-[1107px] pt-22 text-white/90 leading-relaxed mb-16">
@@ -46,12 +49,12 @@ const Crews = () => {
       <div className="w-full max-w-5xl md:max-w-xl lg:max-w-4xl xl:max-w-384 relative">
         <Swiper
           modules={[Pagination, Navigation]}
-          navigation
+          navigation={crewCount > 1}
           pagination={{ clickable: true }}
-          loop
-          centeredSlides
+          loop={crewCount > 3}
+          centeredSlides={isFewCrew}
           spaceBetween={30}
-          slidesPerView={3}
+          slidesPerView={Math.min(crewCount, 3)}
           breakpoints={{
             0: {
               slidesPerView: 1,
@@ -59,16 +62,17 @@ const Crews = () => {
               pagination: { enabled: true, clickable: true },
             },
             640: {
-              slidesPerView: 1,
+              slidesPerView: Math.min(crewCount, 2),
+              centeredSlides: crewCount < 2,
               pagination: { enabled: false },
             },
             1024: {
-              slidesPerView: 2,
-              centeredSlides: false,
+              slidesPerView: Math.min(crewCount, 2),
+              centeredSlides: crewCount < 3,
               pagination: { enabled: false },
             },
             1440: {
-              slidesPerView: 3,
+              slidesPerView: Math.min(crewCount, 3),
               centeredSlides: false,
               pagination: { enabled: false },
             },
