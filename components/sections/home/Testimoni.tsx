@@ -7,7 +7,7 @@ import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 const cards = [
   {
     name: "Iman Suryadi",
-    role: "Senior Community & Production Seller",
+    role: "Head of Brand Startegy",
     profileImg: "/images/home/testimony/iman.jpeg",
     brandImg: "/images/home/testimony/iseller-logo.png",
     message: `“Result yang didapat sangat luar biasa. Didukung dengan team yang solid serta komunikasi yang baik membuat kerjasama ini menjadi maksimal. Recommended!”`

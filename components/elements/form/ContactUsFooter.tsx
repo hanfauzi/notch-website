@@ -109,7 +109,7 @@ const ContactUsFooter = () => {
               value={formData.name}
               onChange={handleChange}
               placeholder="Name"
-              className={`w-full px-4 py-3 rounded-lg md:rounded-full text-center text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] ${
+              className={`w-full px-4 py-3 rounded-lg md:rounded-full text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] ${
                 errors.name ? "border-2 border-red-500" : ""
               }`}
             />
@@ -125,7 +125,7 @@ const ContactUsFooter = () => {
               value={formData.emailPhone}
               onChange={handleChange}
               placeholder="Email / Phone"
-              className={`w-full px-4 py-3 rounded-lg md:rounded-full text-center text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] ${
+              className={`w-full px-4 py-3 rounded-lg md:rounded-full text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] ${
                 errors.emailPhone ? "border-2 border-red-500" : ""
               }`}
             />
@@ -141,7 +141,7 @@ const ContactUsFooter = () => {
               value={formData.subject}
               onChange={handleChange}
               placeholder="Subject"
-              className={`w-full px-4 py-3 rounded-lg md:rounded-full text-center text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] ${
+              className={`w-full px-4 py-3 rounded-lg md:rounded-full text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] ${
                 errors.subject ? "border-2 border-red-500" : ""
               }`}
             />
@@ -157,7 +157,7 @@ const ContactUsFooter = () => {
               onChange={handleChange}
               placeholder="Start a Conversation"
               rows={5}
-              className={`w-full px-4 py-3 rounded-lg md:rounded-3xl text-center text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] resize-none ${
+              className={`w-full px-4 py-3 rounded-lg md:rounded-3xl text-base md:text-lg bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#8d161e] resize-none ${
                 errors.message ? "border-2 border-red-500" : ""
               }`}
             />
