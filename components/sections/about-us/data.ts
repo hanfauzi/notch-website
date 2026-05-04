@@ -16,4 +16,12 @@ export const crews = [
       "From crafting words as a copywriter to leading ideas as a creative director, the journey spans over 20 years in advertising. Built impactful campaigns across platforms and shaped brands like Mitsubishi, TikTok, and Unilever through sharp storytelling and integrated thinking. Creativity and clarity remain at the core of every execution.",
     image: "/images/home/portofolio/chicko(2).webp",
   },
+  {
+    id: 3,
+    name: "Dara Wardhani",
+    title: "Account Manager",
+    description:
+      "A results-driven Account Manager experienced in handling diverse clients across technology, finance, and consumer goods. She has contributed to campaigns for brands like Huawei Indonesia, HSBC, Lenovo Asia Pacific, DBS Bank, and UNICEF, combining strong project management, client servicing, and strategic negotiation to deliver impactful, business-driven results.",
+    image: "/images/home/portofolio/dara.webp",
+  },
 ];
