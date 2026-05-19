@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 const cards = [
   {
@@ -34,7 +32,7 @@ sangat helpful dan responsif sehingga sangat membantu Brand dalam eksekusi campa
 
 const Testimoni = () => {
   return (
-    <section className="relative w-full flex justify-center pt-7 pb-24 lg:py-24 bg-[#f0f0f0]">
+    <section id="testimoni-section" className="relative w-full flex justify-center pt-7 pb-24 lg:py-24 bg-[#f0f0f0]">
       <div className="
         max-w-6xl w-full 
         flex flex-col-reverse lg:flex-row
@@ -124,11 +122,6 @@ const Testimoni = () => {
           </h2>
         </div>
       </div>
-      <Link href="#top" className="absolute bottom-5 right-5 leading-none text-center flex flex-col items-center hover:-translate-y-2 duration-150">
-        <MdKeyboardDoubleArrowUp className="text-4xl md:text-7xl text-red-notch" />
-        <p className="text-red-notch -my-1 text-xs md:text-lg">Back to</p>
-        <p className="text-red-notch m-0 text-xs md:text-lg">top</p>
-      </Link>
     </section>
   );
 }
