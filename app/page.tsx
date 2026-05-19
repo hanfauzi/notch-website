@@ -1,6 +1,7 @@
 import LandingPage from "@/components/sections/home/LandingPage";
 import Portfolio from "@/components/sections/home/Portfolio";
 import Testimoni from "@/components/sections/home/Testimoni";
+import BackToTop from "@/components/elements/button/BackToTop";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
@@ -14,6 +15,7 @@ export default function Home() {
       <LandingPage />
       <Portfolio />
       <Testimoni />
+      <BackToTop />
     </main>
   );
 }
